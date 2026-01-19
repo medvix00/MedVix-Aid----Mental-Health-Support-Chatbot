@@ -1,0 +1,12 @@
+av
+streamlit
+streamlit-webrtc
+vosk
+numpy
+python-dotenv
+langchain-huggingface
+langchain-community
+langchain-core
+langchain-groq
+gTTS
+faiss-cpu
