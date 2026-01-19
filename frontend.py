@@ -23,9 +23,33 @@ st.set_page_config(page_title="Mental Health Support Chatbot", layout="wide")
 
 st.markdown("""
 <style>
-.stApp { background-color: #e8f5e9; }
+/* App background */
+.stApp {
+    background-color: #e8f5e9;
+}
+
+/* Chat messages (user + assistant) */
+[data-testid="stChatMessage"] * {
+    color: #000000 !important;
+}
+
+/* Input text */
+textarea, input {
+    color: #000000 !important;
+}
+
+/* Sidebar text */
+section[data-testid="stSidebar"] * {
+    color: #000000 !important;
+}
+
+/* Buttons text */
+button {
+    color: #000000 !important;
+}
 </style>
 """, unsafe_allow_html=True)
+
 
 # ================= CONFIG =================
 DB_FAISS_PATH = "vectorstore/db_faiss"
