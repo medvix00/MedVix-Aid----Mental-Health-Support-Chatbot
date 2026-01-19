@@ -10,3 +10,4 @@ langchain-core
 langchain-groq
 gTTS
 faiss-cpu
+sentence-transformers
